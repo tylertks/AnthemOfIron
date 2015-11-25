@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Sight.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Sync.cs" Line="18" Column="2" />
+      <File FileName="Assets\Scripts\PlayerMove.cs" Line="53" Column="20" />
+      <File FileName="Assets\Scripts\Sight.cs" Line="126" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
