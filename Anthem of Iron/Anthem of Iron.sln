@@ -1,13 +1,11 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{D51CC426-F98A-3F5A-4ABD-6AA255AD38B1}") = "Anthem of Iron", "Assembly-CSharp-firstpass.csproj", "{0FC7C74A-C99B-83B2-7B39-66E86B2F79A1}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anthem of Iron.CSharp.Plugins", "Anthem of Iron.CSharp.Plugins.csproj", "{94063AD5-FCC0-0B93-9220-3CE01A35E9B7}"
 EndProject
-Project("{D51CC426-F98A-3F5A-4ABD-6AA255AD38B1}") = "Anthem of Iron", "Assembly-CSharp.csproj", "{6F0873BE-07F1-9351-D6D0-088AFD589AF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anthem of Iron.CSharp", "Anthem of Iron.CSharp.csproj", "{42D8FF5C-8AD3-B433-69C4-8297E9E8A62C}"
 EndProject
-Project("{D51CC426-F98A-3F5A-4ABD-6AA255AD38B1}") = "Anthem of Iron", "Assembly-CSharp-Editor.csproj", "{5E274734-C192-45FF-A6FD-67A80D0CB70E}"
-EndProject
-Project("{D51CC426-F98A-3F5A-4ABD-6AA255AD38B1}") = "Anthem of Iron", "Assembly-UnityScript.unityproj", "{0E6D2387-A7B9-34D9-3582-1DC7BBD88BC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anthem of Iron.CSharp.Editor", "Anthem of Iron.CSharp.Editor.csproj", "{909EC463-7038-D29A-24A9-58E516547087}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,47 +13,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0FC7C74A-C99B-83B2-7B39-66E86B2F79A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FC7C74A-C99B-83B2-7B39-66E86B2F79A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FC7C74A-C99B-83B2-7B39-66E86B2F79A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FC7C74A-C99B-83B2-7B39-66E86B2F79A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F0873BE-07F1-9351-D6D0-088AFD589AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F0873BE-07F1-9351-D6D0-088AFD589AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F0873BE-07F1-9351-D6D0-088AFD589AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F0873BE-07F1-9351-D6D0-088AFD589AF3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5E274734-C192-45FF-A6FD-67A80D0CB70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E274734-C192-45FF-A6FD-67A80D0CB70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E274734-C192-45FF-A6FD-67A80D0CB70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E274734-C192-45FF-A6FD-67A80D0CB70E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E6D2387-A7B9-34D9-3582-1DC7BBD88BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E6D2387-A7B9-34D9-3582-1DC7BBD88BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E6D2387-A7B9-34D9-3582-1DC7BBD88BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E6D2387-A7B9-34D9-3582-1DC7BBD88BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94063AD5-FCC0-0B93-9220-3CE01A35E9B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94063AD5-FCC0-0B93-9220-3CE01A35E9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94063AD5-FCC0-0B93-9220-3CE01A35E9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94063AD5-FCC0-0B93-9220-3CE01A35E9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D8FF5C-8AD3-B433-69C4-8297E9E8A62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D8FF5C-8AD3-B433-69C4-8297E9E8A62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D8FF5C-8AD3-B433-69C4-8297E9E8A62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D8FF5C-8AD3-B433-69C4-8297E9E8A62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909EC463-7038-D29A-24A9-58E516547087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909EC463-7038-D29A-24A9-58E516547087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909EC463-7038-D29A-24A9-58E516547087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909EC463-7038-D29A-24A9-58E516547087}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-		GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
-		Policies = $0
-		$0.TextStylePolicy = $1
-		$1.inheritsSet = null
-		$1.scope = text/x-csharp
-		$0.CSharpFormattingPolicy = $2
-		$2.AnonymousMethodBraceStyle = NextLine
-		$2.PropertyBraceStyle = NextLine
-		$2.EventBraceStyle = NextLine
-		$2.StatementBraceStyle = NextLine
-		$2.inheritsSet = Mono
-		$2.inheritsScope = text/x-csharp
-		$2.scope = text/x-csharp
-		$0.TextStylePolicy = $3
-		$3.FileWidth = 120
-		$3.TabsToSpaces = False
-		$3.EolMarker = Unix
-		$3.inheritsSet = VisualStudio
-		$3.inheritsScope = text/plain
-		$3.scope = text/plain
-	EndGlobalSection
-
 EndGlobal
